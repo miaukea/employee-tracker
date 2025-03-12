@@ -1,4 +1,4 @@
-INSERT INTO department (department_name)
+INSERT INTO departments (department_name)
 VALUES ('Customer Service'),
        ('Grocery'),
        ('Produce')
@@ -8,7 +8,7 @@ VALUES ('Customer Service'),
        ('Pharmacy');
       
 
-INSERT INTO role (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ('Cashier', 15.00, 10),
        ('Bagger', 12.00, 10),
        ('Grocery Clerk', 16.00, 20),
@@ -18,7 +18,7 @@ VALUES ('Cashier', 15.00, 10),
        ('Baker', 17.00, 60),
        ('Pharmacy Tech', 21.00, 70);
        
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
+INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES ('Ashley', 'Brown', 10, 100),
        ('Cathy', 'Doe', 10),
        ('Elijah', 'Frederick', 20, 101),
